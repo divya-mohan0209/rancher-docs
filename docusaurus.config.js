@@ -1,7 +1,7 @@
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'RKE1',
+  title: 'Rancher Manager',
   tagline: '',
   url: 'https://rancher.com/docs/rancher',
   baseUrl: '/',
@@ -28,7 +28,7 @@ module.exports = {
       logo: {
         alt: 'logo',
         src: 'img/rancher-logo-horiz-color.svg',
-        href: 'docs/v2.6.5/en/introduction',
+        href: 'v2.6.5',
       },
       items: [
         {
@@ -48,7 +48,7 @@ module.exports = {
           type: 'docsVersionDropdown',
           position: 'left',
           dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
-          dropdownActiveClassDisabled: true,
+          dropdownActiveClassDisabled: false,
         },
       ],
     },
