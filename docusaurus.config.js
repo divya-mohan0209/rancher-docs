@@ -28,12 +28,12 @@ module.exports = {
       logo: {
         alt: 'logo',
         src: 'img/rancher-logo-horiz-color.svg',
-        href: 'v2.6.5',
+        href: 'en',
       },
       items: [
         {
           type: 'doc',
-          docId: 'v2.6.5/en/introduction',
+          docId: 'en/introduction',
           position: 'right',
           label: 'Docs',
           className: 'navbar__docs',
@@ -71,8 +71,8 @@ module.exports = {
           lastVersion: 'current',
           versions: {
             current: {
-              label: 'v2.6.5',
-              path: 'v2.6.5',
+              label: 'v2.6',
+              path: 'en',
             },
           },
         },
